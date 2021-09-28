@@ -13,6 +13,57 @@
 
 html, body {
     font-family: 'Red Hat Display', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.section-background {
+    height: 100%;
+    background-image: url('../images/pattern-background-desktop.svg');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #fff;
+    width: 445px;
+    border-radius: 25px;
+    overflow: auto;
+}
+
+.card-content {
+    padding: 45px;
+}
+
+.card-header {
+    background-image: url('../images/illustration-hero.svg');
+    background-position: center center;
+    background-size: contain;
+    height: 168px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-description {
+    text-align: center;
+}
+
+.card-info {
+    background-color: var(--very-pale-blue);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:25px;
 }
 
 
